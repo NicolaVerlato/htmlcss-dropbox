@@ -30,9 +30,19 @@ li{
 .btn{
     background-color: #0061ff;
     color: white;
-    padding: 5px 17px;
+    padding: 7px 17px;
 }
-
+section{
+    margin-bottom: 140px;
+}
+.cerchio{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
 /* header */
 .header{
     width: 100%;
@@ -45,6 +55,7 @@ li{
     justify-content: space-between;
     padding: 20px;
     margin-bottom: 50px;
+    background-color: white;
 }
 .logo{
     width: 115px;
@@ -61,7 +72,9 @@ header a{
     font-size: 12px;
 }
 
-/* main */
+/* MAIN */
+
+/* jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
     margin-top: 65px;
@@ -90,8 +103,87 @@ h1{
 }
 .img-jumbo{
     position: absolute;
-   
-
 }
 
+/* abbonamenti */
+/* titolo e fatturazioni */
+h2{
+    margin-bottom: 50px;
+}
+.fatturazioni{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.pieno{
+    border: 4px solid #0061ff;
+}
+.vuoto{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.fatturazioni span{
+    vertical-align: middle;
+}
+.mensile{
+    margin-right: 12px;
+}
 
+/* colonne */
+.colonne-abbonamenti{
+    justify-content: space-between;
+}
+.col-abbonamenti{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 30%;
+    height: 900px;
+}
+.categoria{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 7px 0;
+    font-size: 14px;
+}
+.inside-column{
+    padding: 30px;
+    font-size: 12px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.price{
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.tempo{
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+.quantità, .spazio{
+    margin-bottom: 17px;
+}
+.funzioni{
+    margin-bottom: 50px;
+}
+.inside-column .btn{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.inside-column a {
+    color: #0061ff;
+}
+.linea{
+    width: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 30px 0;
+}
+h5{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+li{
+    margin-bottom: 18px;
+}
+li span{
+    color: #0061ff;
+}
