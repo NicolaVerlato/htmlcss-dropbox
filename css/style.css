@@ -7,3 +7,54 @@ body{
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* common */
+img{
+    width: 100%;
+    display: inline-block;
+}
+.container-big{
+    width: 80%;
+    margin: 0 auto;
+}
+.container-small{
+    width: 70%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+.btn{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 17px;
+}
+
+/* header */
+.header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    color: black;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    width: 115px;
+    margin-right: 12px;
+}
+header a{
+    text-decoration: none;
+    color: inherit;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.inizia{
+    margin-left: 12px;
+    font-size: 12px;
+}
