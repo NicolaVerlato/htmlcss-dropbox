@@ -342,8 +342,24 @@ li span{
     text-decoration: none;
     background-color: white;
     color: black;
-    padding: 6px 40px;
+    padding: 6px 60px;
+    font-size: 14px;
 }
 .flex-space-between div{
     margin-top: 10px;
+}
+
+/* faq */
+.domanda{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 25px 0;
+}
+.domanda:last-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.domanda h4{
+    font-size: 14px;
+}
+.domanda span{
+    padding-right: 25px;
 }
