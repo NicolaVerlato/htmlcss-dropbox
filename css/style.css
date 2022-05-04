@@ -363,3 +363,36 @@ li span{
 .domanda span{
     padding-right: 25px;
 }
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.col-footer h3{
+    font-size: 15px;
+}
+.col-footer a{
+    background-color: inherit;
+    color: inherit;
+    font-size: 12px;
+    padding: 0;
+}
+.col-footer li{
+    margin: 0;
+}
+.container-big .linea{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    width: 80px;
+}
+.language span{
+    font-size: 11px;
+    color:  rgba(255, 255, 255, 0.6);
+    display: inline;
+}
+
+
