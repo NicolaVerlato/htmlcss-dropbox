@@ -30,7 +30,6 @@ li{
 .btn{
     background-color: #0061ff;
     color: white;
-    padding: 7px 17px;
 }
 section{
     margin-bottom: 140px;
@@ -70,6 +69,7 @@ header a{
 .inizia{
     margin-left: 12px;
     font-size: 12px;
+    padding: 7px 17px;
 }
 
 /* MAIN */
@@ -92,9 +92,13 @@ h1{
     width: 40%;
     padding-right: 70px;
 }
-.bottone{
+.bottone-jumbo{
     margin-top: 30px;
     margin-bottom: 15px;
+}
+.bottone-jumbo .btn{
+    text-decoration: none;
+    padding: 7px 17px;
 }
 .arrow{ 
     padding-top: 35px;
@@ -164,11 +168,15 @@ h3{
 .funzioni{
     margin-bottom: 50px;
 }
-.inside-column .btn{
+.inside-column .btn-piano{
     text-align: center;
     margin-bottom: 30px;
 }
-.inside-column a {
+.btn-piano .btn{
+    text-decoration: none;
+    padding: 7px 52px;
+}
+.acquista a {
     color: #0061ff;
 }
 .linea{
@@ -186,4 +194,52 @@ li{
 }
 li span{
     color: #0061ff;
+}
+
+/* enterprise */
+.enterprise{
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.flex-content{
+    display: flex;
+    padding: 30px;
+}
+.button-contatti a{
+    margin-top: 7px;
+    font-size: 13px;
+    padding: 7px 70px;
+    text-decoration: none;
+}
+.text-left{
+    width: 70%;
+}
+.contattaci{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.text-left p{
+    font-size: 12px;
+}
+
+/* partner */
+.partner img{
+    width: 55%;
+}
+
+.text-right{
+    padding: 30px 45px;
+}
+.text-right p{
+    line-height: 30px;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+.text-right a{
+    border: 1px solid black;
+    padding: 7px 17px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
