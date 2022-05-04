@@ -243,3 +243,18 @@ li span{
     color: black;
     font-size: 14px;
 }
+
+/* dropbox businness */
+.wrap{
+    flex-wrap: wrap;
+}
+.dropbox-businness .col{
+    width: calc(100% / 3);
+    padding: 0 50px 70px 50px;
+}
+.col h3{
+    padding-top: 5px;
+}
+.col p{
+    font-size: 13px;
+}
