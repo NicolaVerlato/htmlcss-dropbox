@@ -138,7 +138,7 @@ h2{
 .col-abbonamenti{
     border: 1px solid rgba(0, 0, 0, 0.2);
     width: 30%;
-    height: 900px;
+    padding-bottom: 80px;
 }
 .categoria{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -172,9 +172,13 @@ h3{
     text-align: center;
     margin-bottom: 30px;
 }
+.btn-piano{
+    width: 100%;
+    background-color: #0061ff;
+    padding: 7px 0;
+}
 .btn-piano .btn{
     text-decoration: none;
-    padding: 7px 52px;
 }
 .acquista a {
     color: #0061ff;
@@ -204,12 +208,12 @@ li span{
 .flex-content{
     display: flex;
     padding: 30px;
+    justify-content: space-between;
 }
-.button-contatti a{
-    margin-top: 7px;
+.button-contatti .btn{
     font-size: 13px;
-    padding: 7px 70px;
     text-decoration: none;
+    padding: 6px 50px;
 }
 .text-left{
     width: 70%;
@@ -247,14 +251,99 @@ li span{
 /* dropbox businness */
 .wrap{
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .dropbox-businness .col{
-    width: calc(100% / 3);
-    padding: 0 50px 70px 50px;
+    width: calc((100% / 3) - 30px );
+    padding-bottom: 70px;
 }
 .col h3{
     padding-top: 5px;
 }
 .col p{
     font-size: 13px;
+}
+
+/* affiliati */
+.affiliati{
+    margin-bottom: 0;
+}
+.affiliati h2{
+    margin-bottom: 25px;
+}
+.affiliati a{
+    color: #0061ff;
+    font-size: 13px;
+}
+.margin{
+    margin-top: 40px;
+}
+.grey{
+    background-color: whitesmoke;
+    padding: 50px;
+}
+.grey img{
+    width: 160px;
+    display: block;
+}
+.grey p{
+    font-size: 13px;
+}
+.autore{
+    padding-top: 50px;
+    font-size: 13px;
+}
+.col-img{
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+    /* filter: invert(1); */
+}
+.des{
+    background-color: #a2d39b;
+    border: 8px solid #cbe7c8;
+}
+.asu{
+    background-color: #62082b;
+}
+.uf{
+    background-color: #0094ce;
+}
+.topps{
+    background-color: #fe1c1c;
+}
+.wbr{
+    background-color: #d5011f;
+}
+.hc{
+    background-color: #b4d0e7;
+}
+.lp{
+    background-color: #0e2481;
+}
+.cc{
+    background-color: #ffd82f;
+}
+
+/* prova-gratuita */
+.prova-gratuita{
+    background-color: #b4d0e7;
+    padding: 100px 0;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-space-between h2{
+    color: #62082b;
+    font-size: 32px;
+}
+.flex-space-between a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 6px 40px;
+}
+.flex-space-between div{
+    margin-top: 10px;
 }
