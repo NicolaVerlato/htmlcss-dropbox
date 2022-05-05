@@ -275,6 +275,9 @@ li span{
 .col p{
     font-size: 13px;
 }
+.dropbox-businness{
+    margin-bottom: 60px;
+}
 
 /* affiliati */
 .affiliati{
@@ -405,16 +408,17 @@ footer{
 }
 /* footer top */
 .col-footer h3{
-    font-size: 15px;
+    font-size: 18px;
 }
 .col-footer a{
     background-color: inherit;
     color: inherit;
-    font-size: 12px;
+    font-size: 13px;
     padding: 0;
 }
 .col-footer li{
     margin: 0;
+    padding: 2px 0;
 }
 /* footer bottom */
 .language span{
