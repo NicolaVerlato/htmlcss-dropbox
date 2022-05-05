@@ -18,7 +18,7 @@ img{
     margin: 0 auto;
 }
 .container-small{
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 .flex{
@@ -95,7 +95,7 @@ header a{
 h1{
     padding-top: 80px;
     padding-bottom: 60px;
-    font-size: 65px;
+    font-size: 60px;
 }
 .col-jumbo-left{
     width: 35%;
@@ -223,9 +223,9 @@ li span{
     justify-content: space-between;
 }
 .button-contatti .btn{
-    font-size: 13px;
+    font-size: 12px;
     text-decoration: none;
-    padding: 6px 50px;
+    padding: 6px 45px;
 }
 .text-left{
     width: 70%;
@@ -263,6 +263,8 @@ li span{
 /* dropbox businness */
 .wrap{
     flex-wrap: wrap;
+}
+.space-between{
     justify-content: space-between;
 }
 .dropbox-businness .col{
@@ -285,6 +287,7 @@ li span{
 }
 .affiliati h2{
     margin-bottom: 25px;
+    font-size: 30px;
 }
 .affiliati a{
     color: #0061ff;
@@ -297,7 +300,6 @@ li span{
     background-color: whitesmoke;
     padding: 50px;
     padding-bottom: 100px;
-    width: 130%;
 }
 .grey hr{
     margin: 25px 0;
@@ -318,58 +320,59 @@ li span{
 }
 /* immagini di affiliati */
 .col-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
     width: 50%;
-    height: 50%;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 200px;
+}
+.images{
+    width: 100%;
 }
 .images img{
     filter: invert(1);
+    width: 100px;
 }
+/* classi nomi università */
 .des{
     background-color: #a2d39b;
     border: 8px solid #cbe7c8;
-    padding-top: 75px;
 }
 .asu{
     background-color: #62082b;
-    padding-top: 55px;
 }
 .uf{
     background-color: #0094ce;
-    padding-top: 85px;
 }
 .topps{
     background-color: #fe1c1c;
-    padding-top: 65px;
 }
 .wbr{
     background-color: #d5011f;
-    padding-top: 75px;
 }
 .hc{
     background-color: #b4d0e7;
-    padding-top: 90px;
 }
 .lp{
     background-color: #0e2481;
-    padding-top: 68px;
 }
 .cc{
     background-color: #ffd82f;
-    padding-top: 60px;
 }
 
 /* prova-gratuita */
 .prova-gratuita{
     background-color: #b4d0e7;
-    padding: 80px 0;
+    padding: 120px 0;
+    margin-bottom: 100px;
 }
 .flex-space-between{
     display: flex;
     justify-content: space-between;
 }
 .flex-space-between h2{
+    margin: 0;
     color: #62082b;
     font-size: 32px;
 }
@@ -393,7 +396,7 @@ li span{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .domanda h4{
-    font-size: 14px;
+    font-size: 13px;
 }
 .domanda span{
     padding-right: 25px;
